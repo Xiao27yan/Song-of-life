@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://c1tbsnq25bcj2"]
+
+[ext_resource type="Texture2D" uid="uid://dnhbxe0jopiqg" path="res://场景/Gemini_Generated_Image_65ufhr65ufhr65uf.png" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://dk765il18qr11" path="res://Scenes/Player.tscn" id="2_qxrlw"]
+
+[node name="Node2D" type="Node2D" unique_id=297128417]
+
+[node name="street" type="Sprite2D" parent="." unique_id=881904083]
+texture = ExtResource("1_ebmjs")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=107800699]
+position = Vector2(-3, 13)
+zoom = Vector2(0.41, 0.41)
+
+[node name="CharacterBody2D" parent="." unique_id=1423496519 instance=ExtResource("2_qxrlw")]
+position = Vector2(-78, 448)
