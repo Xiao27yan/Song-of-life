@@ -14,3 +14,6 @@ zoom = Vector2(0.41, 0.41)
 
 [node name="CharacterBody2D" parent="." unique_id=1423496519 instance=ExtResource("2_qxrlw")]
 position = Vector2(-78, 448)
+
+[node name="CharacterBody2D2" parent="." unique_id=811086442 instance=ExtResource("2_qxrlw")]
+position = Vector2(-522, 467)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://fh041msuj1kc"
-path="res://.godot/imported/xiaoyan2.png-5cef028de4716cc890c70f8c1471b61d.ctex"
+uid="uid://cqhcsydbr4qj8"
+path="res://.godot/imported/Xiaoyan2.png-483cf6981a099f6192ea2697d23af930.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://角色/xiaoyan2.png"
-dest_files=["res://.godot/imported/xiaoyan2.png-5cef028de4716cc890c70f8c1471b61d.ctex"]
+source_file="res://角色/Xiaoyan2.png"
+dest_files=["res://.godot/imported/Xiaoyan2.png-483cf6981a099f6192ea2697d23af930.ctex"]
 
 [params]
 
