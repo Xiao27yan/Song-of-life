@@ -129,6 +129,21 @@ region = Rect2(768, 768, 128, 256)
 atlas = ExtResource("1_rpqav")
 region = Rect2(896, 768, 128, 256)
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dewec"]
+load_path = "res://.godot/imported/sprite-006.png-79e80939d6b9ad99a54c0c082dbf040b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5ixxa"]
+load_path = "res://.godot/imported/sprite-002.png-a9663d838932e6a52c45cddbf2ff5bee.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nn08x"]
+load_path = "res://.godot/imported/sprite-003.png-9f8e6fb51ad8bc36605d21be6495af69.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_52ee3"]
+load_path = "res://.godot/imported/sprite-004.png-857bc72358a83cbe7174b1f6d3520ee8.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bhhdu"]
+load_path = "res://.godot/imported/sprite-005.png-a9bb0c9057d32e79b52e746e796c182c.ctex"
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_dewec"]
 animations = [{
 "frames": [{
@@ -248,6 +263,26 @@ animations = [{
 "loop": true,
 "name": &"idle",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_dewec")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_5ixxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_nn08x")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_52ee3")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_bhhdu")
+}],
+"loop": true,
+"name": &"挥剑",
+"speed": 8.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kyqiw"]
@@ -260,11 +295,11 @@ script = ExtResource("1_gntrk")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=495788387]
 position = Vector2(72, 54)
 sprite_frames = SubResource("SpriteFrames_dewec")
-animation = &"Up_walk"
-autoplay = "idle"
-frame_progress = 0.4886213
+animation = &"挥剑"
+autoplay = "挥剑"
+frame_progress = 0.7396532
 script = ExtResource("4_dewec")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1584401786]
-position = Vector2(77, 78)
+position = Vector2(71, 71)
 shape = SubResource("CapsuleShape2D_kyqiw")

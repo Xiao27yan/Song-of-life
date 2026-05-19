@@ -3,12 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://1b8x3o3hyu5h" path="res://场景/Wutancheng.png" id="1_qxrlw"]
 [ext_resource type="PackedScene" uid="uid://dk765il18qr11" path="res://Scenes/Player.tscn" id="2_qxrlw"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_qxrlw"]
-size = Vector2(2983, 67)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_wrm1d"]
-size = Vector2(3022, 111)
-
 [node name="Node2D" type="Node2D" unique_id=297128417]
 
 [node name="street" type="Sprite2D" parent="." unique_id=881904083]
@@ -22,13 +16,3 @@ zoom = Vector2(0.38, 0.38)
 
 [node name="CharacterBody2D" parent="." unique_id=1423496519 instance=ExtResource("2_qxrlw")]
 position = Vector2(-11, 420)
-
-[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1208819113]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1068136522]
-position = Vector2(-244.5, 795.5)
-shape = SubResource("RectangleShape2D_qxrlw")
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D" unique_id=1373062717]
-position = Vector2(-225, -848)
-shape = SubResource("RectangleShape2D_wrm1d")
